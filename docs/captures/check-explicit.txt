@@ -1,0 +1,7 @@
+OK Checked tool (1 step)
+WARN broken: test step 1 ("false"): exit status 1
+ERROR Failed to check broken
+OK jq up to date (1.8.2)
+OK Checked 1 package, 1 failed, 1 up to date
+  hint: Retry with `app check broken`
+---exit 1---

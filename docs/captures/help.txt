@@ -1,0 +1,30 @@
+---stdout---
+app installs packages from catalogs into the current project.
+
+Usage:
+  app [command]
+
+Available Commands:
+  build       Build a package from source
+  check       Check packages (default: every package)
+  clean       Remove unused package versions
+  completion  Generate the autocompletion script for the specified shell
+  env         Print the shell environment
+  help        Help about any command
+  info        Show a package
+  install     Install a package
+  publish     Publish the catalog to a registry
+  run         Run a command in the package environment
+  search      Search the catalogs
+  status      Show the project packages
+  sync        Install the locked packages
+  update      Update the catalogs
+
+Flags:
+      --color string       colorize output: auto, always, or never (default "auto")
+  -h, --help               help for app
+      --narration string   narration format: auto, plain, or json (default "auto")
+  -q, --quiet              suppress narration output
+      --verbose            show debug output
+
+Use "app [command] --help" for more information about a command.

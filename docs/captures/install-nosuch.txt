@@ -1,0 +1,3 @@
+ERROR Package nosuch not found
+  hint: Check the package name or run `app update`
+---exit 1---

@@ -1,0 +1,4 @@
+OK Updated catalog main
+DEBUG Skipped jq 1.8.3 (unchanged)
+WARN Catalog extra is 9 days old — run `app update extra`
+INFO Release notes: https://registry.example/notes

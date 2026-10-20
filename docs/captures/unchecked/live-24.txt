@@ -1,0 +1,16 @@
+\x1b[2K\x1b[36m⠋\x1b[0m Building slow 1.0
+\x1b[1A\x1b[2K\x1b[36m⠙\x1b[0m Buildi…  \x1b[2mcompiling 0/2\x1b[0m
+\x1b[1A\x1b[2K\x1b[36m⠹\x1b[0m Buildi…  \x1b[2mcompiling 0/2\x1b[0m
+\x1b[1A\x1b[2K\x1b[36m⠸\x1b[0m Buildi…  \x1b[2mcompiling 0/2\x1b[0m
+\x1b[1A\x1b[2K\x1b[36m⠼\x1b[0m Buildi…  \x1b[2mcompiling 0/2\x1b[0m
+\x1b[1A\x1b[2K\x1b[36m⠴\x1b[0m Buildi…  \x1b[2mcompiling 0/2\x1b[0m
+\x1b[1A\x1b[2K\x1b[36m⠦\x1b[0m Buildi…  \x1b[2mcompiling 0/2\x1b[0m
+\x1b[1A\x1b[2K\x1b[36m⠧\x1b[0m Buildi…  \x1b[2mcompiling 1/2\x1b[0m
+\x1b[1A\x1b[2K\x1b[36m⠇\x1b[0m Buildi…  \x1b[2mcompiling 1/2\x1b[0m
+\x1b[1A\x1b[2K\x1b[36m⠏\x1b[0m Buildi…  \x1b[2mcompiling 1/2\x1b[0m
+\x1b[1A\x1b[2K\x1b[36m⠋\x1b[0m Buildi…  \x1b[2mcompiling 1/2\x1b[0m
+\x1b[1A\x1b[2K\x1b[36m⠙\x1b[0m Buildi…  \x1b[2mcompiling 1/2\x1b[0m
+\x1b[1A\x1b[2K\x1b[36m⠹\x1b[0m Buildi…  \x1b[2mcompiling 1/2\x1b[0m
+\x1b[1A\x1b[2K\x1b[36m⠸\x1b[0m Buildi…  \x1b[2mcompiling 1/2\x1b[0m
+\x1b[1A\x1b[2K\x1b[36m⠼\x1b[0m Buildi…  \x1b[2mcompiling 1/2\x1b[0m
+\x1b[1A\x1b[J\x1b[32m✓\x1b[0m Built slow 1.0 (1s)

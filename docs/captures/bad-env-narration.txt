@@ -1,0 +1,2 @@
+Error: invalid APP_NARRATION value "xml" (want auto, plain, or json)
+---exit 2---

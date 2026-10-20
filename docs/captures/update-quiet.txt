@@ -1,0 +1,1 @@
+WARN Catalog extra is 9 days old — run `app update extra`

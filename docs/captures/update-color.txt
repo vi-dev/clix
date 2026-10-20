@@ -1,0 +1,4 @@
+\x1b[32m✓\x1b[0m Updated catalog main
+\x1b[2m· Skipped jq 1.8.3 (unchanged)\x1b[0m
+\x1b[33m!\x1b[0m Catalog extra is 9 days old — run `app update extra`
+\x1b[36m•\x1b[0m Release notes: https://registry.example/notes

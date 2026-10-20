@@ -1,0 +1,5 @@
+OK Compared with registry.example/cat: 1 to push, 41 unchanged
+OK Would publish registry.example/cat: 1 to push, 41 unchanged
+---stdout---
+PACKAGE  VERSION  STATUS
+jq       1.8.3    updated

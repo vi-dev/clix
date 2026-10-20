@@ -1,0 +1,7 @@
+INFO Building broken 1.0
+checking for cc... no
+ERROR Failed to build broken 1.0
+ERROR Configure failed: exit status 1
+      see config.log
+  hint: Run `app build broken@1.0 --verbose`
+---exit 1---

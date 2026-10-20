@@ -1,0 +1,2 @@
+{"seq":1,"time":"2026-10-20T02:55:11.306530Z","event":"line","level":"error","text":"Invalid --color value \"bogus\" (want auto, always, or never)"}
+{"seq":2,"time":"2026-10-20T02:55:11.306582Z","event":"exit","code":2}

@@ -1,0 +1,5 @@
+OK Removed 2 package versions
+---stdout---
+PACKAGE  VERSION  SIZE
+jq       1.7.1    1 MB
+zlib     1.3      512 KB

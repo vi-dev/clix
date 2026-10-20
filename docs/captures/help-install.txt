@@ -1,0 +1,20 @@
+---stdout---
+Install resolves a package in the configured catalogs, downloads it,
+and adds it to the project. It writes the package under the app home
+and records the exact version.
+
+Usage:
+  app install <name>@<version> [flags]
+
+Examples:
+  app install jq               # newest version in the first catalog
+  app install jq@1.8.3         # an exact version
+
+Flags:
+  -h, --help   help for install
+
+Global Flags:
+      --color string       colorize output: auto, always, or never (default "auto")
+      --narration string   narration format: auto, plain, or json (default "auto")
+  -q, --quiet              suppress narration output
+      --verbose            show debug output

@@ -1,0 +1,6 @@
+ERROR Failed to install corrupt 1.0
+ERROR Checksum mismatch
+      want sha256:9f86d081884c7d65
+      got  sha256:60303ae22b998861
+  hint: Run `app install corrupt@1.0 --verbose`
+---exit 1---

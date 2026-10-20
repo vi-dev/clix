@@ -1,0 +1,4 @@
+---stdout---
+{"name":"jq","size":"1 MB","summary":"Command-line JSON processor"}
+{"name":"jless","size":"2 MB","summary":"Command-line JSON viewer"}
+{"name":"jsonnet-bundler","size":"3 MB","summary":"Package manager for Jsonnet"}

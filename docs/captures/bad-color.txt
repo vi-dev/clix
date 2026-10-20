@@ -1,0 +1,2 @@
+Error: invalid --color value "bogus" (want auto, always, or never)
+---exit 2---

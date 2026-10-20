@@ -1,0 +1,7 @@
+{"seq":1,"time":"2026-10-20T04:34:56.944339Z","event":"begin","app":"app","version":"0.1.0","schema":1}
+{"seq":2,"time":"2026-10-20T04:34:56.944659Z","event":"task","task":1,"state":"started","label":"Installing jq 1.8.3"}
+{"seq":3,"time":"2026-10-20T04:34:56.944678Z","event":"task","task":1,"state":"phase","phase":"downloading"}
+{"seq":4,"time":"2026-10-20T04:34:57.946841Z","event":"task","task":1,"state":"progress","phase":"downloading","done":3137536,"total":4194304,"unit":"bytes"}
+{"seq":5,"time":"2026-10-20T04:34:58.451186Z","event":"task","task":1,"state":"phase","phase":"extracting"}
+{"seq":6,"time":"2026-10-20T04:34:58.552274Z","event":"task","task":1,"state":"done","outcome":"Installed jq 1.8.3","elapsed_ms":1607}
+{"seq":7,"time":"2026-10-20T04:34:58.552490Z","event":"exit","code":0}

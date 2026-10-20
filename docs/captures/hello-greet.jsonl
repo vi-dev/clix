@@ -1,0 +1,6 @@
+{"seq":1,"time":"2026-10-20T02:55:15.572500Z","event":"begin","app":"hello","version":"0.1.0","schema":1}
+{"seq":2,"time":"2026-10-20T02:55:15.572730Z","event":"line","level":"info","text":"Hello, world"}
+{"seq":3,"time":"2026-10-20T02:55:15.572741Z","event":"task","task":1,"state":"started","label":"Greeting world"}
+{"seq":4,"time":"2026-10-20T02:55:15.572754Z","event":"task","task":1,"state":"phase","phase":"thinking"}
+{"seq":5,"time":"2026-10-20T02:55:15.873788Z","event":"task","task":1,"state":"done","outcome":"Greeted world","elapsed_ms":301}
+{"seq":6,"time":"2026-10-20T02:55:15.874018Z","event":"exit","code":0}

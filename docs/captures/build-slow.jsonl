@@ -1,0 +1,6 @@
+{"seq":1,"time":"2026-10-20T04:34:06.721486Z","event":"begin","app":"app","version":"0.1.0","schema":1}
+{"seq":2,"time":"2026-10-20T04:34:06.721594Z","event":"task","task":1,"state":"started","label":"Building slow 1.0"}
+{"seq":3,"time":"2026-10-20T04:34:06.721612Z","event":"task","task":1,"state":"phase","phase":"compiling"}
+{"seq":4,"time":"2026-10-20T04:34:07.723776Z","event":"task","task":1,"state":"progress","phase":"compiling","done":1,"total":2,"unit":"items"}
+{"seq":5,"time":"2026-10-20T04:34:08.124054Z","event":"task","task":1,"state":"done","outcome":"Built slow 1.0","elapsed_ms":1402}
+{"seq":6,"time":"2026-10-20T04:34:08.124190Z","event":"exit","code":0}

@@ -1,0 +1,5 @@
+---stdout---
+PACKAGE     SIZE  SUMMARY
+jq          1 MB  Command-line JSON processor
+jless       2 MB  Command-line JSON viewer
+jsonnet…    3 MB  Package manager for Jsonnet

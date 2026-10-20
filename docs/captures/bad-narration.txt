@@ -1,0 +1,2 @@
+Error: invalid --narration value "xml" (want auto, plain, or json)
+---exit 2---

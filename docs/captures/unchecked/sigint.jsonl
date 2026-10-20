@@ -1,0 +1,5 @@
+{"seq":1,"time":"2026-10-20T02:55:15.919856Z","event":"begin","app":"app","version":"0.1.0","schema":1}
+{"seq":2,"time":"2026-10-20T02:55:15.919956Z","event":"task","task":1,"state":"started","label":"Building slow 1.0"}
+{"seq":3,"time":"2026-10-20T02:55:15.919975Z","event":"task","task":1,"state":"phase","phase":"compiling"}
+{"seq":4,"time":"2026-10-20T02:55:16.217848Z","event":"task","task":1,"state":"failed","outcome":"Cancelled slow 1.0","elapsed_ms":297}
+{"seq":5,"time":"2026-10-20T02:55:16.218021Z","event":"exit","code":130,"signal":"SIGINT"}
