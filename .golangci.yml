@@ -1,0 +1,80 @@
+version: "2"
+
+linters:
+  enable:
+    - unparam
+    - forbidigo
+    - depguard
+  settings:
+    forbidigo:
+      forbid:
+        - pattern: ^fmt\.F?[Pp]rint(f|ln)?$
+          msg: terminal output goes through console.Console (narration to stderr, Data/JSON/Table to stdout)
+        - pattern: ^print(ln)?$
+          msg: the print builtins bypass console.Console
+    depguard:
+      rules:
+        console:
+          files:
+            - "**/console/*.go"
+            - "**/console/**/*.go"
+          allow:
+            - $gostd
+            - github.com/vi-dev/clix/console
+        root:
+          files:
+            - "!**/console/*.go"
+            - "!**/console/**/*.go"
+          deny:
+            - pkg: golang.org/x/sys
+              desc: terminal size goes through golang.org/x/term
+    govet:
+      enable:
+        - printf
+      settings:
+        printf:
+          funcs:
+            - Info
+            - Infof
+            - Success
+            - Successf
+            - Warn
+            - Warnf
+            - Debug
+            - Debugf
+            - Hint
+            - Hintf
+            - Prompt
+            - Promptf
+    errcheck:
+      exclude-functions:
+        - (io.Closer).Close
+        - (*os.File).Close
+        # os.Root postdates the upstream list; same intent as *os.File above.
+        - (*os.Root).Close
+        - (*compress/gzip.Reader).Close
+        - (*archive/zip.ReadCloser).Close
+        - os.Remove
+        - os.RemoveAll
+        - fmt.Fprint
+        - fmt.Fprintf
+        - fmt.Fprintln
+  exclusions:
+    rules:
+      - path: _test\.go$
+        linters:
+          - errcheck
+          - forbidigo
+          - unparam
+      - path: ^console/
+        linters:
+          - forbidigo
+
+formatters:
+  enable:
+    - gofmt
+    - goimports
+  settings:
+    goimports:
+      local-prefixes:
+        - github.com/vi-dev/clix
